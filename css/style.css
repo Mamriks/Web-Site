@@ -247,6 +247,7 @@ a:hover .fa {
     background-color: #260556; /* Цвет фона блока */
     color: #fff; /* Цвет текста */
     padding-top: 20px ; /* Внутренний отступ блока */
+    padding-bottom: 20px ;
     align-items: center;
     font-family: "Ваш Шрифт", sans-serif;
 }
