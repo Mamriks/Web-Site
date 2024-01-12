@@ -91,7 +91,7 @@ a:hover .fa {
     color: white;
     margin-bottom: 20px; /* Отступ между текстом и изображением */
     margin-left: 130px;
-    font-family: "Ваш Шрифт", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 .content-block img {
     max-width: 100%;
@@ -102,7 +102,7 @@ a:hover .fa {
     font-size: 24px; /* Размер шрифта */
     color: black; /* Цвет текста */
     margin-left: 300px;
-    font-family: "Ваш Шрифт", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 .custom-text1 li {
     margin-bottom: 20px; /* Задает отступ снизу для каждого элемента списка */
@@ -111,13 +111,13 @@ a:hover .fa {
     background-color: white;
     padding: 20px;
     text-align: center;
-    font-family: "Ваш Шрифт", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-size: 20px;
 }
 .custom-text2 {
     font-size: 24px; /* Размер шрифта */
     color: black; /* Цвет текста */
-    font-family: "Ваш Шрифт", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 10px;
