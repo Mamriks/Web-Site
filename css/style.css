@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #260556;
+    color: #fff;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px; /* Добавляет внутренний отступ заголовку */
+    display: flex; /* Использует Flexbox для выравнивания элементов */
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 100px;
+    max-height: 150px; /
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 120px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.nav-list a:hover {
+    background-color: #000;
+    color: #fff;
+}
+a:hover .fa {
+  color: white;
+}
+/* Добавьте следующие стили в ваш файл style.css */
+/* Добавьте следующий стиль в ваш файл style.css */
+.content-block {
+    background-color: #916ad5; /* Нежно-сиреневый цвет фона блока */
+    padding: 20px; /* Регулирует внутренний отступ блока */
+    position: relative;
+    display: flex; /* Использует Flexbox для выравнивания элементов */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-block pre {
+    white-space: pre-wrap; /* Сохраняет пробелы и переносы строки */
+}
+.dark-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: flex;
+    bottom: 100px;
+    width: 100%;
+    margin-top: 500px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info {
+    margin: 0;
+}
+
+.copyright {
+    text-align: center;
+    margin: 10px 0 0;
+}
+.custom-text {
+    font-size: 50px;
+    font-weight: bold;
+    white-space: pre;
+    color: white;
+    margin-bottom: 20px; /* Отступ между текстом и изображением */
+    margin-left: 130px;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.content-block img {
+    max-width: 100%;
+    height: 800px;
+    margin-left: 200px; /* Отступ слева от изображения */
+}
+.custom-text1 {
+    font-size: 24px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    margin-left: 300px;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.custom-text1 li {
+    margin-bottom: 20px; /* Задает отступ снизу для каждого элемента списка */
+}
+.white-content-block {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Ваш Шрифт", sans-serif;
+    font-size: 20px;
+}
+.custom-text2 {
+    font-size: 24px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    font-family: "Ваш Шрифт", sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    width: 22%; /* Регулирует ширину каждой колонки */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.column h3 {
+    color: #a37fdf;
+}
+.purple-bg {
+    background-color: #260556; /* Фоновый цвет блока */
+    color: white; /* Цвет текста */
+    position: relative;
+    display: flex; /* Использует Flexbox для выравнивания элементов */
+    align-items: center;
+}
+.purple-bg pre {
+    white-space: pre-wrap; /* Сохраняет пробелы и переносы строки */
+}
+.custom-text3 {
+    font-size: 24px; /* Размер шрифта */
+    color: #a37fdf; /* Цвет текста */
+    margin-left: 300px;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.custom-text3 li {
+    margin-bottom: 20px; /* Задает отступ снизу для каждого элемента списка */
+}
+.purple-bg img {
+    max-width: 100%;
+    height: 600px;
+    margin-left: 200px; /* Отступ слева от изображения */
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.custom-text4 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px; /* Отступ между текстом и изображением */
+    margin-left: 300px;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.content-block4 {
+    background-color: #260556; /* Цвет фона блока */
+    color: #fff; /* Цвет текста */
+    padding-top: 1px ; /* Внутренний отступ блока */
+    align-items: center;
+}
+.content-block4::after {
+    content: "Наше портфолио
+    "Мы гордимся тем, что наше стремление к инновациям и передовым технологиям отражается в реальных проектах. Наше портфолио представляет широкий спектр успешных реализаций в области роботизации производства.";
+    position: absolute;
+    width: 500px; /* Ширина вашего прямоугольника */
+    height: 500px;
+    background-color: #ffffff; /* Цвет вашего прямоугольника */
+    top: 3600px;
+    right: 250px;
+    border-radius: 20px;
+    padding: 20px;/* Добавьте отступ внутри квадрата для текста */
+    font-size: 26px; /* Размер шрифта */
+    color: #000000; /* Цвет текста */
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 столбца равной ширины */
+    gap: 30px; /* Отступ между картинками */
+    margin: 500px;
+    margin-left: 0px;
+    margin-top: 250px;
+
+}
+
+.image-grid img {
+    width: 300px; /* Заполняет ширину ячейки сетки */
+    height: 300px; /* Подстраивается под соотношение сторон оригинальной картинки */
+}
+.content-block4 .content-block-overlay {
+    position: absolute;
+    top: 3000px;
+    right: 200px;
+    width: 500px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content-block4 .content-block-overlay h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+
+.content-block4 .content-block-overlay p {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.image-table1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0px;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+.image-table1 img {
+    width: 300px; /* Заполняет ширину ячейки сетки */
+    height: 300px; /* Подстраивается под соотношение сторон оригинальной картинки */
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1); /* Добавляет тень */
+    border-radius: 20px;
+}
+.content-block111 {
+    background-color: #260556; /* Цвет фона блока */
+    color: #fff; /* Цвет текста */
+    padding-top: 20px ; /* Внутренний отступ блока */
+    align-items: center;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.content-block111::after {
+    content: "Наши услуги - это не просто набор предложений. Это доверие, проверенное временем и подтвержденное нашими клиентами. Нашими услугами пользуются те, кто ценит надежность, профессионализм и внимательное отношение к своим потребностям. Мы гордимся тем, что нашими услугами уже доверяют компании и частные лица, ищущие качество и эффективность. Мы стремимся быть решением для тех, кто ищет не просто услуги, а партнера, на которого можно положиться. Доверьтесь нам, и мы сделаем все возможное, чтобы оправдать это доверие..";
+    position: absolute;
+    width: 370px; /* Задайте ширину вашего квадрата */
+    height: 600px; /* Задайте высоту вашего квадрата */
+    background-color: #a37fdf; /* Цвет вашего квадрата */
+    top: 700px; /* Выравнивает по вертикали по центру блока */
+    left: 500px; /* Выравнивает по горизонтали по центру блока */
+    transform: translate(-50%, -50%); /* Сдвигает квадрат на половину своей ширины и высоты в обратном направлении */
+    border-radius: 20px; /* Добавляет скругление углов */
+    padding: 20px; /* Отступ внутри квадрата для текста */
+    font-size: 24px; /* Размер шрифта */
+    color: #ffffff; /* Цвет текста */
+    text-align: center; /* Выравнивает текст по центру */
+    font-family: "Ваш Шрифт", sans-serif;
+    text-align: left;
+}
+.content-block222 {
+    background-color: #260556; /* Цвет фона блока */
+    color: #fff; /* Цвет текста */
+    padding-top: 20px ; /* Внутренний отступ блока */
+    align-items: center;
+}
+.custom-text5 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px; /* Отступ между текстом и изображением */
+    margin-left: 1190px;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.content-block222 img {
+    max-width: 100%; /* Максимальная ширина изображения равна ширине блока */
+    display: block; /* Сделать изображение блочным элементом */
+    margin-left: 250px; /* Убрать отступ слева */
+}
+.content-block222::after {
+    content: "Наши ведущие эксперты в области роботизации производства обладают глубокими знаниями и опытом в разработке и внедрении инновационных технологий, таких как автоматизированные системы, робототехника, машинное обучение и промышленные Интернет вещей. Мы специализируемся на создании индивидуальных решений, которые оптимизируют процессы производства, повышают эффективность и качество продукции, а также снижают издержки. Наша цель - помочь вашему бизнесу оставаться конкурентоспособным и успешным в быстро меняющемся мире промышленных технологий.";
+    position: absolute;
+    width: 400px; /* Задайте ширину вашего квадрата */
+    height: 570px; /* Задайте высоту вашего квадрата */
+    background-color: #a37fdf; /* Цвет вашего квадрата */
+    top: 600px; /* Выравнивает по вертикали по центру блока */
+    left: 1270px; /* Выравнивает по горизонтали по центру блока */
+    transform: translate(-50%, -50%); /* Сдвигает квадрат на половину своей ширины и высоты в обратном направлении */
+    border-radius: 20px; /* Добавляет скругление углов */
+    padding: 20px; /* Отступ внутри квадрата для текста */
+    font-size: 24px; /* Размер шрифта */
+    color: #ffffff; /* Цвет текста */
+    text-align: center; /* Выравнивает текст по центру */
+    font-family: "Ваш Шрифт", sans-serif;
+    text-align: left;
+}
+.content-block10 {
+    background-color: #260556; /* Цвет фона блока */
+    color: #000000; /* Цвет текста */
+    padding-top: 20px ; /* Внутренний отступ блока */
+    align-items: center;
+    font-family: "Ваш Шрифт", sans-serif;
+}
+.content-block10 .inner-content {
+    padding-bottom: 200px; /* Отступ внутреннего контента вниз (тот, что внутри блока) */
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    z-index: 2; /* Устанавливает высокий z-index для формы, чтобы она находилась выше блока ::after */
+    position: relative; 
+}
+
+.label {
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.input {
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2; /* Серый цвет фона */
+    border: 1px solid #666; /* Цвет границы */
+}
+
+.btn {
+    background-color: #a37fdf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e474eb;
+}
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+.form textarea {
+    color: #000000;
+    background-color: #f2f2f2; /* Серый цвет фона */
+    border: 1px solid #666; /* Цвет границы */
+    padding-bottom:100px;
+}
+.call-us {
+    text-align: center;
+    padding: 30px;
+}
+
+.call-us-text {
+    font-size: 40px;
+    color: #000000; /* Цвет текста, выберите подходящий вам */
+    font-family: "Ваш Шрифт", sans-serif;
+    z-index: 2; /* Устанавливает высокий z-index для формы, чтобы она находилась выше блока ::after */
+    position: relative; 
+}
+.content-block10::after {
+    content: " Обращайтесь к нам за помощью! ";
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    background-color: #ffffff;
+    top: 530px;
+    left: 950px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    font-family: "Ваш Шрифт", sans-serif;
+    text-align: left;
+
+    margin-bottom: 500px;
+
+
+}
